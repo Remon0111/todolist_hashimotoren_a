@@ -1,0 +1,46 @@
+
+{
+    "menu": {
+        "title": "What would you like to do?",
+        "options": [
+            "1. Add Todo",
+            "2. View Todos",
+            "3. Update Todo",
+            "4. Calendar Todo",
+            "5. reporting Todo",
+            "6. Delete Todo",
+            "7. Exit"
+        ],
+        "prompt": "Enter your choice: "
+    },
+    "messages": {
+        "enter_task": "Enter the task: ",
+        "todo_added": "Todo added successfully!",
+        "todo_datetime_Year": "Please enter the year for the task: ",
+        "todo_datetime_Month": "Please enter the month for the task: ",
+        "todo_datetime_Day": "Please enter the day for the task: ",
+        "todo_datetime_Hour": "Please enter the Hour for the task: ",
+        "no_todos": "No todos found!",
+        "your_todos": "Your Todos:",
+        "enter_number_update": "Enter the number of the todo to update: ",
+        "enter_new_task": "Enter the new task: ",
+        "enter_new_datetime_Year": "Please enter the year for your new task: ",
+        "enter_new_datetime_Month": "Please enter the month for your new task: ",
+        "enter_new_datetime_Day": "Please enter the day for your new task: ",
+        "enter_new_datetime_Hour": "Please enter the Hour for your newtask: ",
+        "enter_reporting": "Please enter the number of the task you are reporting: ",
+        "is_done": "Is it done? (yes/no): ",
+        "todo_reporting": "Todo reported successfully!",
+        "todo_updated": "Todo updated successfully!",
+        "invalid_number": "Invalid number!",
+        "invalid_input": "Invalid input!",
+        "enter_number_delete": "Enter the number of the todo to delete: ",
+        "todo_deleted": "Todo deleted successfully!",
+        "goodbye": "Goodbye!",
+        "invalid_choice": "Invalid choice! Please try again."
+    },
+    "status": {
+        "not_done": "✘",
+        "done": "✔"
+    }
+}
