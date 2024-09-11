@@ -1,6 +1,7 @@
 
 {
     "menu": {
+        "showCommand": "You can see the commands by typing 'help' in the terminal.",
         "title": "What would you like to do?",
         "options": [
             "1. Add Todo",
@@ -14,6 +15,7 @@
         "prompt": "Enter your choice: "
     },
     "messages": {
+        "welcome_maessage": "Welcome",
         "enter_task": "Enter the task: ",
         "todo_added": "Todo added successfully!",
         "todo_datetime_Year": "Please enter the year for the task: ",
