@@ -57,12 +57,12 @@ $(function() {
                 // 受け取ったリストを使用して何か処理を行う
                 console.log(data.list);
                 viewTask.push(data.list);
-                this.echo("Your Todos:")
-                this.echo("--------------------------------------------------")
+                this.echo("[[;#32cd32;]Your Todos:")
+                this.echo("[[;#32cd32;]--------------------------------------------------")
                 for (const task of data.list) {
                     this.echo(task[0] + ". " + task[6] + "|" + task[2] + "/" + task[3] + "/" + task[4] + "/" + task[5] + ": " + task[1]);
                 }
-                this.echo("--------------------------------------------------")
+                this.echo("[[;#32cd32;]--------------------------------------------------")
             })
             .catch((error) => {
                 console.error('Error:', error);
@@ -80,7 +80,7 @@ $(function() {
                 console.log(data.list);
                 updateViewTask.push(data.list);
                 for (const task of data.list) {
-                    this.echo(task[0] + ". " + task[6] + "|" + task[2] + "/" + task[3] + "/" + task[4] + "/" + task[5] + ": " + task[1]);
+                    this.echo(task[0] + ". " + task[7] + "|" + task[3] + "/" + task[4] + "/" + task[5] + "/" + task[6] + ": " + task[2]);
                 };
                 const updateTaskNumber = []
                 const updateChange = []
@@ -165,7 +165,7 @@ $(function() {
                 console.log(data.list);
                 updateViewTask.push(data.list);
                 for (const task of data.list) {
-                    this.echo(task[0] + ". " + task[6] + "|" + task[2] + "/" + task[3] + "/" + task[4] + "/" + task[5] + ": " + task[1]);
+                    this.echo(task[0] + ". " + task[7] + "|" + task[3] + "/" + task[4] + "/" + task[5] + "/" + task[6] + ": " + task[2]);
                 };
                 const reportinglist = [];
                 await this.read("Please enter the number of the task you are reporting: ", ReportingNumber =>{reportinglist.push(ReportingNumber)});
