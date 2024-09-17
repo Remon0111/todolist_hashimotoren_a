@@ -1,8 +1,6 @@
 from flask import Flask, render_template, jsonify, request
 from flask_login import UserMixin, login_manager, login_user, logout_user
 import sqlite3
-import json
-import logging
 
 
 app = Flask(__name__, template_folder="templates")
