@@ -1,0 +1,14 @@
+:root {
+    --size: 1.4;
+    --font: Menlo;
+}
+
+.box {
+    margin       : auto;
+    width        : 150px;
+    height       : 150px;
+}
+
+.html, body {
+    overflow: hidden;
+}

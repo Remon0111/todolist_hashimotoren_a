@@ -1,0 +1,46 @@
+
+{
+    "menu": {
+        "title": "何をしたいですか？",
+        "options": [
+            "1. タスクを追加",
+            "2. タスクを表示",
+            "3. タスクを更新",
+            "4. タスクをカレンダーで確認",
+            "5. タスクの報告",
+            "6. タスクを削除",
+            "7. 終了"
+        ],
+        "prompt": "選択肢を入力してください: "
+    },
+    "messages": {
+        "enter_task": "タスクを入力してください: ",
+        "todo_added": "タスクが正常に追加されました！",
+        "todo_datetime_Year": "タスクの年を入力してください: ",
+        "todo_datetime_Month": "タスクの月を入力してください: ",
+        "todo_datetime_Day": "タスクの日を入力してください: ",
+        "todo_datetime_Hour": "タスクの時間を入力してください: ",
+        "no_todos": "タスクが見つかりません！",
+        "your_todos": "あなたのタスク:",
+        "enter_number_update": "更新するタスクの番号を入力してください: ",
+        "enter_new_task": "新しいタスクを入力してください: ",
+        "enter_new_datetime_Year": "新しいタスクの年を入力してください: ",
+        "enter_new_datetime_Month": "新しいタスクの月を入力してください: ",
+        "enter_new_datetime_Day": "新しいタスクの日を入力してください: ",
+        "enter_new_datetime_Hour": "新しいタスクの時間を入力してください: ",
+        "enter_reporting": "報告するタスクの番号を入力してください: ",
+        "is_done": "完了しましたか？ (yes/no): ",
+        "todo_reporting": "タスクが正常に報告されました",
+        "todo_updated": "タスクが正常に更新されました！",
+        "invalid_number": "無効な番号です！",
+        "invalid_input": "無効な入力です！",
+        "enter_number_delete": "削除するタスクの番号を入力してください: ",
+        "todo_deleted": "タスクが正常に削除されました！",
+        "goodbye": "さようなら！",
+        "invalid_choice": "無効な選択です！もう一度やり直してください。"
+    },
+    "status": {
+        "not_done": "✘",
+        "done": "✔"
+    }
+}
